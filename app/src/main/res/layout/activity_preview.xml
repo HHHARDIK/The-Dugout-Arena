@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".Preview">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Preview"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pname"
+        android:text="Name : "
+        android:textSize="25dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pphone"
+        android:text="Phone : "
+        android:textSize="25dp"
+        android:layout_below="@+id/pname"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ptime"
+        android:text="Timing : "
+        android:textSize="25dp"
+        android:layout_below="@+id/pphone"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pdate"
+        android:text="Date : "
+        android:textSize="25dp"
+        android:layout_below="@+id/ptime"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pground"
+        android:text="Ground : "
+        android:textSize="25dp"
+        android:layout_below="@+id/pdate"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pground"
+        android:text="Book"
+        android:layout_margin="30dp"
+        />
+</RelativeLayout>
